@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: "Prompt", sans-serif;
+  height: 100%;
 }
 p,
 h1,
@@ -18,9 +19,16 @@ ul {
   color: #222;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 .content {
+  flex: 1;
   margin: auto 50px;
-  min-height: 380px;
+  /* min-height: 100vh; */
 }
 
 /* nav styles */
