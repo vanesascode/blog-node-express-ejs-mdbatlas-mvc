@@ -3,7 +3,6 @@ section p {
   text-align: center;
   margin: auto;
   cursor: pointer;
-  flex-shrink: 0;
 }
 
 section {
@@ -14,6 +13,7 @@ section {
   min-height: 100px;
   padding-top: 50px;
   margin-top: 20px;
+  flex-shrink: 0;
 }
 
 .red {
