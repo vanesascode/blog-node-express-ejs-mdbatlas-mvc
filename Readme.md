@@ -1,5 +1,7 @@
 # Blog created with NODE, EXPRESS, EJS, MONGODB ATLAS, and an MVC approach. 
-⭐ Read more about how it is built below the video. ⭐
+👇👇👇 Read more about how it is built below the video. 👇👇👇
+
+https://github.com/vanesascode/blog-node-express-ejs-mdbatlas-mvc/assets/131259155/2cd25228-790b-4b43-b5f7-fa975d365c88
 
 
 'YOUR DEVELOPMENT BLOG’ is created with Express, a popular framework for creating web applications in Node.js, and has an MVC approach.
