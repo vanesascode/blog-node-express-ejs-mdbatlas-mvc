@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap");
+body {
+  /* max-width: 1200px; */
+  /* margin: 20px auto; */
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Prompt", sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+a,
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #222;
+}
+
+.content {
+  margin: auto 50px;
+  min-height: 380px;
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+@media (max-width: 1008px) {
+  nav {
+    display: block;
+  }
+  nav ul {
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+}
+
+nav h1 {
+  font-size: 3em;
+  color: crimson;
+}
+
+nav p,
+nav a {
+  color: #777;
+  font-weight: 300;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+h3 {
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+/* index styles */
+.blogs a {
+  display: block;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-left: 6px solid crimson;
+}
+.blogs a:hover h3 {
+  color: crimson;
+}
+
+/* details styles */
+.details {
+  position: relative;
+}
+.delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  padding: 8px;
+}
+.delete:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  background-color: crimson;
+}
+
+/* create styles */
+.create-blog form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.create-blog input,
+.create-blog textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+.create-blog label {
+  display: block;
+  margin-top: 24px;
+}
+textarea {
+  height: auto;
+  min-height: 120px;
+  resize: vertical;
+  white-space: pre-wrap;
+}
+.create-blog button {
+  margin-top: 20px;
+  background: crimson;
+  border-radius: 10px;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.create-blog button:hover {
+  background-color: rgb(219, 94, 119);
+  cursor: pointer;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}

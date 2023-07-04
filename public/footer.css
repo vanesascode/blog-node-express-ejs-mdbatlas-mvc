@@ -1,0 +1,43 @@
+section p {
+  color: black;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100px;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+.red {
+  background: crimson;
+}
+
+/* Curved bg with SVG via https://www.shapedivider.app/ */
+
+.custom-shape-divider-top-1688474364 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: -5px;
+}
+
+.custom-shape-divider-top-1688474364 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 116px;
+}
+
+.custom-shape-divider-top-1688474364 .shape-fill {
+  fill: #ffffff;
+}
