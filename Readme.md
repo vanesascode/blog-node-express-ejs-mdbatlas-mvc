@@ -27,7 +27,7 @@ In the app.js file we find a basic Express.js server that connects to a MongoDB 
 
 ## 🔹 ROUTES:
 
-App.js defines two routes: - The root route ("/") redirects to the "/blogs" route. - The "/tips" route renders the "tips" view with a title of "Tips to write blog posts". It sets up the "/blogs" route to use the blogRoutes file for handling blog-related routes. It defines a default 404 route that renders the "404" view with a title of "404".
+App.js defines two routes: - The root route ("/") redirects to the "/blogs" route. - The "/tips" route renders the "tips" view with a title of "Tips to write blog posts". It sets up the "/blogs" route to use the blogRoutes.js file inside the routes folder for handling blog-related routes. It defines a default 404 route that renders the "404" view with a title of "404".
 
 ## 🔹 CONTROLLER:
 
