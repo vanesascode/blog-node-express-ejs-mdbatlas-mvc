@@ -1,8 +1,12 @@
 # Blog created with NODE, EXPRESS, EJS, MONGODB ATLAS, and an MVC approach. 
 👇👇👇 Read more about how it is built below the video. 👇👇👇
+***
+***
 
 https://github.com/vanesascode/blog-node-express-ejs-mdbatlas-mvc/assets/131259155/2cd25228-790b-4b43-b5f7-fa975d365c88
 
+***
+***
 
 'YOUR DEVELOPMENT BLOG’ is created with Express, a popular framework for creating web applications in Node.js, and has an MVC approach.
 
@@ -55,6 +59,6 @@ As mentioned before, everything in this folder is going to be accessable at the 
 
 # ✔️ HOW TO RUN THE NODE SERVER:
 
-1 - In the terminal, run 'node app'. Or 'nodemon app' if you have installed it https://github.com/remy/nodemon It is useful so you don't have to refresh the server all the time everytime you make changes to the code.
+1 - In the terminal, run 'node app'. Or 'nodemon app' if you have [installed it](https://github.com/remy/nodemon) It is useful so you don't have to refresh the server all the time everytime you make changes to the code.
 
 2 - In the browser, go to the site: http://localhost:3000/
