@@ -18,7 +18,11 @@ The MVC pattern promotes separation of concerns, making the codebase more modula
 
 ## 🔹 SERVER:
 
-In the app.js file we find a basic Express.js server that connects to a MongoDB database and sets up routes for a blog application. It sets the view engine to EJS (Embedded JavaScript) for rendering dynamic HTML templates. It sets up MIDDLEWARE functions:
+In the app.js file we find a basic Express.js server that connects to a MongoDB database and sets up routes for a blog application. It sets the view engine to EJS (Embedded JavaScript) for rendering dynamic HTML templates.
+
+## 🔹 MIDDLEWARE: 
+
+The server also sets middleware functions. They act as a bridge between the server and the application, allowing for additional processing and modifications to be made to the incoming request or outgoing response. 
 
 - express.static('public') serves static files from the "public" directory.
 - express.urlencoded({ extended: true }) parses incoming request bodies.
