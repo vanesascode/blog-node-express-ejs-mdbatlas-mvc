@@ -1,5 +1,5 @@
 # Blog created with NODE, EXPRESS, EJS, MONGODB ATLAS, and an MVC approach. 
-In the video you can see how it looks and what it does. Notice this app is still in development stage running on a local domain. It is a learning project and you can find all my notes during the process, which helped me understand everything better, below the video. 👇👇👇
+In the video you can see how it looks and what it does. Notice this app is still in development stage running on a local domain. It is a learning project and you can find all my notes during the process, which helped me understand everything better, below the video. 👇👇👇👇
 ***
 ***
 
