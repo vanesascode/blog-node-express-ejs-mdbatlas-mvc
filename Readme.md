@@ -63,6 +63,6 @@ As mentioned before, everything in this folder is going to be accessable at the 
 
 # ✔️ HOW TO RUN THE NODE SERVER:
 
-1 - In the terminal, run 'node app'. Or 'nodemon app' if you have [installed it](https://github.com/remy/nodemon) It is useful so you don't have to refresh the server all the time everytime you make changes to the code.
+1 - In the terminal, run 'node app'. Or 'nodemon app' if you have [installed it](https://github.com/remy/nodemon). It is useful so you don't have to refresh the server all the time everytime you make changes to the code.
 
 2 - In the browser, go to the site: http://localhost:3000/
